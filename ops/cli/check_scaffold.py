@@ -16,6 +16,7 @@ REQUIRED_PATHS = [
     Path("CLAUDE.md"),
     Path("scripts/python"),
     Path("config/project.json"),
+    Path("docs/wiki"),
     Path("playbooks"),
     Path("ops/cli"),
 ]
