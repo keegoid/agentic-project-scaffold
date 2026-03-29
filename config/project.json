@@ -1,0 +1,11 @@
+{
+  "name": "Agentic Project Scaffold",
+  "slug": "agentic-project-scaffold",
+  "summary": "A reusable starter for projects where agents reason and deterministic code handles repeatable execution.",
+  "source_of_truth": [
+    "README.md",
+    "config/project.json"
+  ],
+  "artifact_directory": "artifacts",
+  "work_item_directory": "work-items"
+}

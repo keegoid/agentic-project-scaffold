@@ -1,0 +1,4 @@
+hand-offs/*
+!hand-offs/.gitkeep
+!README.md
+!.gitignore
