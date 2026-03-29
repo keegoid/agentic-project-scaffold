@@ -45,6 +45,7 @@ python3 -m venv .venv
 
 - `AGENTS.md`
 - `CLAUDE.md`
+- `docs/wiki/`
 - `playbooks/`
 - `config/project.json`
 
@@ -52,6 +53,7 @@ python3 -m venv .venv
 
 ```bash
 ./scripts/python ops/cli/check_scaffold.py
+./scripts/python ops/cli/validate_wiki.py
 python -m unittest discover -s tests
 ```
 
@@ -82,6 +84,7 @@ These scripts are intentionally small. They are examples of the pattern, not a f
 ├── AGENTS.md
 ├── CLAUDE.md
 ├── config/
+├── docs/
 ├── ops/
 │   ├── cli/
 │   └── common.py
@@ -96,6 +99,7 @@ These scripts are intentionally small. They are examples of the pattern, not a f
 - Replace the generic work-item examples with scripts that fit your domain.
 - Keep deterministic I/O, syncs, exports, and validations in `ops/cli/`.
 - Keep agent expectations in `AGENTS.md` and mirror them in `CLAUDE.md` if you use multiple tools.
+- Use `docs/wiki/` for durable project knowledge that should survive chat history without bloating top-level instructions.
 - Add or remove playbooks as workflows mature.
 - Mark the repository as a GitHub template if you want one-click reuse.
 
