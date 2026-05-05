@@ -16,10 +16,10 @@ This project separates concerns so that probabilistic AI handles reasoning while
 
 In Keegoid-run environments, agent-authored branch, commit, PR, review,
 and sync work is routed through `~/keegoid/ops/bin/agent-pr-flow`; see
-`~/keegoid/org/playbooks/agent_pr_flow.md`. If that operator tree is
-unavailable, pause and ask the repo owner for the Keegoid PR-flow
-equivalent before using raw git or GitHub commands for agent-authored
-PR work.
+`~/keegoid/org/playbooks/agent_pr_flow.md`. This routing applies only
+to agent-authored PR work. If that operator tree is unavailable, pause
+and ask the repo owner for the Keegoid PR-flow equivalent before using
+raw git or GitHub commands for agent-authored PR work.
 
 ## Project Rules
 
