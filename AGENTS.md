@@ -12,6 +12,15 @@ This project separates concerns so that probabilistic AI handles reasoning while
 
 **Use your judgment for everything else.** Ambiguity resolution, plan quality, product decisions, and edge cases belong with the agent.
 
+## Agent PR Flow
+
+In Keegoid-run environments, agent-authored branch, commit, PR, review,
+and sync work is routed through `~/keegoid/ops/bin/agent-pr-flow`; see
+`~/keegoid/org/playbooks/agent_pr_flow.md`. If that operator tree is
+unavailable, pause and ask the repo owner for the Keegoid PR-flow
+equivalent before using raw git or GitHub commands for agent-authored
+PR work.
+
 ## Project Rules
 
 - Use `./scripts/python` for repo Python commands
